@@ -152,6 +152,16 @@ git clone https://github.com/ahcorataner/cardioAR.git
 
 ---
 
+## 📥 Download do Aplicativo (APK)
+
+A versão funcional do aplicativo **CardioAR** para dispositivos Android está disponível para download público por meio do GitHub Releases.
+
+🔗 **Download direto da APK:**  
+👉 https://github.com/ahcorataner/cardioAR/releases/download/v1.0/CardioAR.apk
+
+> ⚠️ Para instalar o aplicativo, é necessário permitir a instalação de apps de fontes desconhecidas nas configurações do Android.
+---
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a **MIT License.**
@@ -163,4 +173,4 @@ Consulte o arquivo `LICENSE` para mais detalhes.
 
 Desenvolvido por **Renata Costa Rocha (@ahcorataner)**  
 Projeto acadêmico e científico com foco em **Educação Médica Interativa.**
-```
+
