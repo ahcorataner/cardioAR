@@ -128,36 +128,165 @@ Este projeto é voltado para:
 
 ---
 
-## 🚀 Como Executar
+# 🚀 Como Executar o Projeto (Passo a Passo Detalhado)
 
-### Clonar o repositório
-```bash
-git clone https://github.com/ahcorataner/cardioAR.git
-```
+Esta seção descreve **detalhadamente** como executar o projeto **CardioAR,** desde o download do código-fonte até a geração e instalação do aplicativo no celular Android.
 
-### Abrir no Unity
-1. Abra o **Unity Hub.**
-2. Clique em **Add Project** e selecione a pasta `CardioAR`.
-3. Abra o projeto.
-
-### Gerar APK para Android
-1. Vá em **File → Build Settings**.
-2. Selecione **Android** e clique em **Switch Platform.**
-3. Configure em **Player Settings:**
-   - Company Name: `ahcorataner`
-   - Product Name: `CardioAR`
-   - Package Name: `com.ahcorataner.cardioar`
-4. Clique em **Build** e gere o arquivo `.apk`.
-5. Instale no dispositivo Android.
+Os passos foram escritos de forma **simples e sequencial,** de modo que **qualquer pessoa,** mesmo sem experiência prévia com Unity, consiga reproduzir o experimento.
 
 ---
 
-## 📥 Download do Aplicativo (APK)
+## 🖥️ Requisitos Básicos
 
-A versão funcional do aplicativo **CardioAR** para dispositivos Android está disponível para download público por meio do GitHub Releases.
+Antes de iniciar, é necessário possuir:
 
-🔗 **Download direto da APK:**  
-👉 https://github.com/ahcorataner/cardioAR/releases/download/v1.0/CardioAR.apk
+- Um **computador** com Windows, Linux ou macOS
+- **Acesso à internet**
+- Um **celular Android** (Android 8.0 ou superior)
+- **Espaço livre em disco** (mínimo recomendado: 5 GB)
+
+---
+
+## 📥 Passo 1 — Instalar o Unity Hub
+
+1. Acesse o site oficial do Unity:  
+   👉 https://unity.com/download
+2. Clique em **Download Unity Hub**.
+3. Execute o instalador e conclua a instalação.
+4. Abra o **Unity Hub** após a instalação.
+
+> ℹ️ O Unity Hub é o programa responsável por gerenciar versões do Unity e projetos.
+
+---
+
+## 📦 Passo 2 — Instalar a versão correta do Unity
+
+1. No **Unity Hub,** clique em **Installs.**
+2. Clique em **Install Editor.**
+3. Selecione a versão **Unity 6.2.**
+4. Durante a instalação, **marque obrigatoriamente:**
+   - ✅ Android Build Support  
+   - ✅ Android SDK & NDK Tools  
+   - ✅ OpenJDK
+5. Conclua a instalação.
+
+> ⚠️ Sem esses módulos, **não é possível gerar a APK para Android.**
+
+---
+
+## 📂 Passo 3 — Baixar (clonar) o projeto CardioAR
+
+### 🔹 Opção A — Via Git (recomendado)
+
+1. Abra o **Prompt de Comando** (Windows) ou **Terminal** (Linux/macOS).
+2. Digite o comando abaixo e pressione **Enter:**
+
+```bash
+git clone https://github.com/ahcorataner/cardioAR.git
+````
+
+3. Aguarde o download do projeto.
+
+---
+
+### 🔹 Opção B — Download manual (sem Git)
+
+1. Acesse o repositório do projeto:
+   👉 [https://github.com/ahcorataner/cardioAR](https://github.com/ahcorataner/cardioAR)
+2. Clique no botão **Code.**
+3. Selecione **Download ZIP.**
+4. Extraia o arquivo ZIP em uma pasta de sua preferência.
+
+---
+
+## 🎮 Passo 4 — Abrir o projeto no Unity
+
+1. Abra o **Unity Hub.**
+2. Clique em **Add Project.**
+3. Selecione a pasta **CardioAR** (pasta principal do projeto).
+4. Clique em **Open.**
+5. Aguarde o Unity importar todos os arquivos.
+
+> ⏳ Esse processo pode levar alguns minutos na primeira abertura.
+
+---
+
+## ▶️ Passo 5 — Executar o projeto no computador (opcional)
+
+1. Com o projeto aberto, clique no botão **Play (▶️)** no topo da tela.
+2. O aplicativo será executado dentro do Unity para testes básicos.
+3. Clique em **Stop** para encerrar a execução.
+
+---
+
+## 📱 Passo 6 — Configurar o projeto para Android
+
+1. No menu superior, clique em **File → Build Settings.**
+2. Selecione a opção **Android.**
+3. Clique em **Switch Platform** e aguarde a conversão.
+
+---
+
+## ⚙️ Passo 7 — Configurar as definições do aplicativo
+
+1. Ainda em **Build Settings,** clique em **Player Settings.**
+2. Preencha os campos da seguinte forma:
+
+* **Company Name:** `ahcorataner`
+* **Product Name:** `CardioAR`
+* **Package Name:** `com.ahcorataner.cardioar`
+
+3. Verifique se:
+
+   * **Scripting Backend:** `IL2CPP`
+   * **Target Architectures:** `ARMv7` e `ARM64` marcados
+
+---
+
+## 📦 Passo 8 — Gerar o aplicativo Android (APK)
+
+1. Em **Build Settings,** clique em **Build.**
+2. Escolha uma pasta para salvar o arquivo.
+3. Nomeie o arquivo como:
+
+```text
+CardioAR.apk
+```
+
+4. Aguarde a finalização do processo.
+
+🎉 **A APK foi gerada com sucesso!**
+
+---
+
+## 📲 Passo 9 — Instalar o aplicativo no celular
+
+1. Copie o arquivo **CardioAR.apk** para o celular Android.
+2. No celular, ative:
+
+   * **Configurações → Segurança → Permitir apps de fontes desconhecidas**
+3. Toque no arquivo APK e conclua a instalação.
+4. Abra o aplicativo **CardioAR.**
+
+---
+
+## ✅ Resultado Esperado
+
+Após a instalação, o usuário poderá:
+
+* Visualizar o **modelo 3D do coração humano**
+* Interagir com o modelo por toque
+* Utilizar recursos de **realidade aumentada**
+* Acessar conteúdos educativos sobre **anatomia cardíaca**
+
+---
+
+## 🔗 Versão pronta para uso
+
+Para usuários que **não desejam compilar o projeto**, a versão funcional do aplicativo **CardioAR** para dispositivos Android está disponível para download público por meio do GitHub Releases:
+🔗 **Download direto da APK:** 
+
+👉 [https://github.com/ahcorataner/cardioAR/releases/download/v1.0/CardioAR.apk](https://github.com/ahcorataner/cardioAR/releases/download/v1.0/CardioAR.apk)
 
 > ⚠️ Para instalar o aplicativo, é necessário permitir a instalação de apps de fontes desconhecidas nas configurações do Android.
 ---
