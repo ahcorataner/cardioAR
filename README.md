@@ -283,7 +283,7 @@ Após a instalação, o usuário poderá:
 
 ## 🔗 Versão pronta para uso
 
-Para usuários que **não desejam compilar o projeto**, a versão funcional do aplicativo **CardioAR** para dispositivos Android está disponível para download público por meio do GitHub Releases:
+Para usuários que **não desejam compilar o projeto,** a versão funcional do aplicativo **CardioAR** para dispositivos Android está disponível para download público por meio do GitHub Releases:
 🔗 **Download direto da APK:** 
 
 👉 [https://github.com/ahcorataner/cardioAR/releases/download/v1.0/CardioAR.apk](https://github.com/ahcorataner/cardioAR/releases/download/v1.0/CardioAR.apk)
